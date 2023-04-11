@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+.dropArea{
+    width: 300px;
+    height: 300px;
+    border: 3px dotted black;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+}
+
+.hover{
+    color: #fff;
+    border: 3px dotted #fff;
+}
+
+.valid{
+    color: #fff;
+    background-color: green;
+    border: 3px dotted green;
+}
+
+.invalid{
+    color: #fff;
+    background-color: red;
+    border: 3px dotted red;
+
+}
+
+img{
+    width: 300px;
+}
